@@ -5,6 +5,7 @@
   "scripts": {
     "setup": "node setup.js",
     "validate": "node validate-config.js",
+    "build:public": "node scripts/sync-public.js",
     "generate:seo": "node scripts/generate-seo-assets.js",
     "validate:seo": "node validate-seo.js",
     "audit:worker": "node worker-budget-audit.js",
