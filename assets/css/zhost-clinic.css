@@ -117,9 +117,16 @@ img {
 }
 
 .mobile-nav-panel > a {
+  display: block;
+  width: 100%;
   padding: 8px 2px;
   font-weight: 700;
   color: var(--text);
+  border-bottom: 1px solid #edf4f1;
+}
+
+.mobile-nav-panel > a:last-of-type {
+  border-bottom: 0;
 }
 
 body.nav-open {
@@ -144,6 +151,12 @@ body.nav-open {
   color: var(--brand);
   border: 1px solid var(--line);
   background: #fff;
+}
+
+.mobile-nav-panel .btn {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
 }
 
 .hero {
